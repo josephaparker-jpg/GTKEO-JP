@@ -2,21 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>gtkeo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introductions Website</title>
+
   <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      background: linear-gradient(to bottom, orange, black);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
+    body{
+      margin:0;
       font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, orange, black);
+      color: white;
+      padding: 20px;
     }
+    .box{
+      max-width: 900px;
+      margin: 0 auto;
+      background: rgba(0,0,0,0.6);
+      padding: 18px;
+      border-radius: 12px;
+    }
+    img{
+      display:block;
+      margin: 0 auto 14px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+    a{ color: #ffd36a; }
+    ul{ list-style-type: square; } /* Requirement 4 */
   </style>
 </head>
+
 <body>
-  <h1>Getting to know each other </h1>
+  <div class="box">
+    <!-- Requirement 2: centered 800x800 image -->
+    <img src="me-800-by-800.jpg" alt="Head and shoulders photo of me">
+
+    <!-- Requirement 1: heading + email link + discord -->
+    <h1>Joseph Parker ’S Introductions Website</h1>
+    <p>Email: <a href="mailto:josephaparker@lewisu.edu">josephaparker@lewisu.edu</a></p>
+    <p>Discord: astroneer1</p>
+
+    <!-- Requirement 3 -->
+    <h2>Introduction</h2>
+    <p>
+      Hello! My name is Joseph Parker (Jp ). I’m from Chicago. My family is ____.
+      My major is Avation Admin and my minor is Unman aircraft.
+    </p>
+
+    <h2>What I Hope to Learn in this Course</h2>
+    <ul>
+      <li>How to write good HTML</li>
+      <li>How to style with CSS</li>
+      <li>How to use JavaScript basics</li>
+      <li>How to publish with GitHub Pages</li>
+    </ul>
+
+    <h2>My Favorite Hobby / Activity</h2>
+    <ul>
+      <li>Photography</li>
+      <li>Music</li>
+    </ul>
+    <p>
+      Learn more here:
+      <a href="https://www.faa.gov/pilots/become" target="_blank" rel="noopener">
+        “Becoming a Pilot” (FAA)
+      </a>
+    </p>
+
+    <h2>Fun Fact</h2>
+    <p>
+      Fun fact: “I went to a Military Bording school for Highschool”
+    </p>
+
+    <!-- Requirement 2: mention thumbnail file -->
+    <h2>My Photo Versions</h2>
+    <ul>
+      <li>me-800-by-800.jpg (max 800px)</li>
+      <li>me-300-by-300.jpg (max 300px)</li>
+    </ul>
+  </div>
 </body>
 </html>
+
